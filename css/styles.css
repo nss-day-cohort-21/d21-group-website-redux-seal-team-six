@@ -33,8 +33,9 @@ header {
 
 section#main {
 	margin-top: 110px;
-	height: 75vh;
+	min-height: 75vh;
 	background-image: url('../img/guitar_splash.jpg');
+	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #161d25;
@@ -53,6 +54,7 @@ h1 {
 	padding-left: 1em;
 	font-size: 5em;
 	margin: 0;
+	text-shadow: 2px 2px 2px #fff;
 }
 
 header ul {
