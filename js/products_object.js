@@ -1,3 +1,4 @@
+//object constructor function
 function makeProduct(name, image, description, price) {
 	this.name = name;
 	this.image = image;
@@ -5,6 +6,7 @@ function makeProduct(name, image, description, price) {
 	this.price = price;
 }
 
+//add data to objects
 let product1 = new makeProduct(
 		'Fender Telecaster',
 		'../img/products/f_tele.jpg',
@@ -68,4 +70,5 @@ let product9 = new makeProduct(
 		'$1,119'
 	);
 
+//create array of objects
 let productsArr = [product1, product2, product3, product4, product5, product6, product7, product8, product9];
