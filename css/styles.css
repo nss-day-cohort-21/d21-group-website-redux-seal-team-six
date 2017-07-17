@@ -219,6 +219,30 @@ p.price {
 	color: #443029;
 }
 
+/* SALES TEAM */
+
+.sales_team {
+   
+   padding: 8px;
+   margin-top: 33px;
+}
+
+
+
+.sales_container {
+	margin: 13px 2px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	float: left;
+	color: white;
+	text-align: center;
+
+}
+
+.sales_main {
+	margin-top: 19px;
+}
+
 /* CONTACT PAGE STYLES */
 
 section#contact {
