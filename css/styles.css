@@ -1,0 +1,45 @@
+
+/*MAIN CONTAINER STYLES*/
+.container {
+
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	height: 50px;
+	width: 100%;
+	border: 1px solid red;
+}
+
+section#main {
+	margin-top: 60px;
+	height: 70vh;
+	background-image: url('../img/guitar_splash.jpg');
+	background-size: cover;
+	border: 1px solid green;
+}
+
+footer {
+	margin-top: 5px;
+	border: 1px solid blue;
+}
+
+/*NAV LIST STYLES*/
+h1 {
+	display: inline-block;
+}
+
+header ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	float: right;
+}
+
+header li {
+	margin-right: 5em;
+}
