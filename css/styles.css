@@ -36,6 +36,8 @@ section#main {
 	height: 75vh;
 	background-image: url('../img/guitar_splash.jpg');
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #161d25;
 }
 
 footer {
