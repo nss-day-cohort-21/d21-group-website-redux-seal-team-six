@@ -1,0 +1,43 @@
+/*PRODUCTS STYLES*/
+
+
+
+.products-container {
+	width: 100%;
+	margin: 0;
+	padding: 1em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.product-card {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 25%;
+	margin: 2.5%;
+	min-height: 300px;
+	text-align: center;
+	box-shadow: 2px 2px 5px #333;
+}
+
+img.products-img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+h3 {
+	color: #161d25;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+p.description {
+	margin: 0;
+}
+
+p.price {
+	font-size: 2em;
+	margin: 1em;
+	color: #443029;
+}
