@@ -86,3 +86,44 @@ p {
 	font-size: 0.8em;
 }
 
+/*SPLASH STYLES*/
+
+.row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.col {
+	width: 50%;
+	padding: 5em;
+}
+
+p.splash-text {
+	padding: 1em;
+	background-color: rgba(90, 90, 90, 0.5);
+	color: #fffce9;
+	font-family: 'Hind', sans-serif;
+	font-size: 1.4em;
+}
+
+input[type="submit"] {
+	background-color: rgba(0, 0, 0, 0);
+	font-family: 'Hind', sans-serif;
+	font-size: 2em;
+	color: #fffce9;
+	margin-top: 20%;
+	padding: 0.2em;
+	float: right;
+	border-color: #fffce9;
+}
+
+/*input[type="submit"] {
+	background-color: #99ddff;
+	font-family: 'Hind', sans-serif;
+	font-size: 2em;
+	color: #161d25;
+	margin-top: 20%;
+	padding: 0.2em;
+	float: right;
+}*/
